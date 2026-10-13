@@ -11,5 +11,6 @@ Image with the repository fingerprint generator.
 
 The device's ADB properties confirmed the exact build fingerprint, 4096-byte
 pages, and `sched_blocked_reason` tracefs event ID `109`. The profile builds
-successfully with Android NDK r28c on macOS. Payload execution and root
-handoff remain untested.
+successfully with Android NDK r28c on macOS. Runtime testing on the connected
+device verified the slide-only route and temporary root (`uid=0`) after one
+retry; KernelSU late-load and Manager handoff remain untested.
