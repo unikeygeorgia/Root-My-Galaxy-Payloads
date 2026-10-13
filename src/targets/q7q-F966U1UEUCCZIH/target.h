@@ -15,9 +15,8 @@
 #endif
 
 #undef BUILD_FINGERPRINT
-/* The exact ro.build.fingerprint is finalized from the device property dump. */
 #define BUILD_FINGERPRINT \
-  "samsung/q7qsq/q7q:17/CP2A.260605.016/F966U1UEUCCZIH_XAACZIH:user/release-keys"
+  "samsung/q7quew/q7q:17/CP2A.260605.016/F966U1UEUCCZIH_OYMCCZIH:user/release-keys"
 
 #undef P0_FINGERPRINT_HEADER
 #if defined(APP_PAYLOAD) && APP_PAYLOAD
@@ -81,3 +80,4 @@
 
 #undef SLIDE_TRACEFS_WORKER_CALLER_OFF
 #define SLIDE_TRACEFS_WORKER_CALLER_OFF 0x000d97ecULL
+#define SLIDE_TRACEFS_EVENT_ID 109
